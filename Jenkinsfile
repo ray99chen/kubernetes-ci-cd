@@ -13,7 +13,7 @@ node {
     env.BUILDIMG=imageName
 
    stage "Echo"
-        sh "echo tag is ${tag}"
+    sh "echo tag is ${tag}. imageName is ${imageName}"
     
     stage "Build"
         sh "echo tag is ${tag}"
